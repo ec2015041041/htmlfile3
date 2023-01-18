@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between Div and Span </title>
+    <!--Apply styles using the class names this is 
+        known as classs selectors, you will learn
+         about this in detail-->
+         <style>
+       .header,.highlights{ color:red}
+   .content{ color:grey}
+         </style>
+</head>
+<body>
+    <!--the main class encapsulates header and contentdivisions, 
+        if anystyle is applied to main class
+         then those styles will be applicable toheader and content divisions-->
+    <div  class="main">
+        <!--header class division-->
+        <div>
+            <h1 class="header">Latest News</h1>
+        <h4 class="header">Covid-19: Molnupiravir benefits outweighrisks, say topmedical experts</h4>
+        </div>
+
+            <div class="content">
+<p> Leading Covid-19 task force members and health experts 
+    treating coronavirus patients across the country said on Monday
+that the Covidantiviral drug molnupiravir is reducing hospitalisation by
+<!--the span is included inside the paragraphand a seperatestyle is applied to it-->
+ <span class="highlights">30-50 %</span>,as well as theseverity of the disease.
+</p>
+
+<p>
+Everybody knows that <!--the span is included inside the 
+    paragraphand a seperatestyle is applied to it-->
+<span class="highlights">facemasks are key</span>to preventing the spread of the 
+pandemic.But not all masks holdup well in the face of the highly transmissible 
+ Omicron variant
+</p>
+                </div>
+        </div>
+</body>
+</html>
